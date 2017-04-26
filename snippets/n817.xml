@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <!-- Manifest -->
+  <remove-project name="LineageOS/android" />
+  <project path="android" name="stevenh512/nndroid" revision="develop" />
+
+  <!-- LineageOS dependencies -->
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="cm-13.0" />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat" revision="cm-13.0" />
+
+  <!-- TeamWin recovery -->
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-7.1" />
+
+  <!-- ZTE N817 -->
+  <project path="device/zte/n817" name="stevenh512/android_device_zte_n817" revision="develop" />
+  <project path="kernel/zte/n817" name="stevenh512/android_kernel_zte_n817" revision="develop" />
+  <project path="vendor/zte/n817" name="stevenh512/proprietary_vendor_zte_n817" revision="develop" />
+</manifest>
+
